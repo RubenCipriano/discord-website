@@ -24,6 +24,7 @@ body:before {
   background: #25272C;
   min-height: 100%;
   padding: 0;
+  width: 100%;
 }
 
 .header {
@@ -71,28 +72,14 @@ body:before {
 }
 
 .inner {
-    
-    padding: 50px;
+  gap: 80px;  
+  padding: 50px;
 }
 
-section .image {
-  width: 300px;
-  min-height: 480px;
-  margin: 40px;
-  background-position: center center;
-  background-size: cover;
-}
-section .image.image1 {
-  background-image: url("../img/example.jpg");
-}
-section .image.image2 {
-  background-image: url("../img/example-2.jpg");
-}
+
 section .text {
-    padding: 40px;
-    max-width: 700px;
-    left: -31%;
-    position: relative;
+  padding: 40px;
+  max-width: 700px;
 }
 section .text p {
   font-size: 18px;
@@ -164,20 +151,11 @@ section .text1 ul li b {
   font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 section.discord-widget {
   padding: 40px;
+  max-width: 700px;
   width: 100%;
+  margin: auto;
 }
 section.discord-widget iframe {
   height: 500px;
